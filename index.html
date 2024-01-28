@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bai tap buoi 3</title>
+</head>
+<body>
+  <h1>Cau 1: Bai tap ve Iframe</h1>
+  <p>
+    <b>Yeu cau: </b>Vao trang google map, tim 1 dia diem yeu thich va nhung the iframe cua 
+    google map vao we4bsite. De hien thi duoc nhu sau
+  </p>
+  <p>
+    <b>Luu y: </b>Thu tu len google tim hie cach nhung ban do vao website
+  </p>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59587.976422099724!2d105.83696370000004!3d21.022739600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1705394273516!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+  <h1>Cau 2: Bai tap ve form</h1>
+  <p>
+    <b>Yeu cau: </b>Tao form <b>dang ky</b> nhu form ben duoi. Phai co ca the form boc ben ngoai.
+    Khi click vao the label thi phai focus vao dung o input tuong ung voi label do. Cac o input phai yeu
+    cau nhap noi dung moi cho Dang ky
+  </p>
+  <form action="https://www.w3schools.com/action_page.php">
+    <label for="name">Ho ten:</label>
+    <br>
+    <input type="text" placeholder="Vi du: levana" id="name" required name="HoTen">
+    <br>
+    <label for="email">Email:</label>
+    <br>
+    <input type="email" id="email" placeholder="Vi du: levana@gmail.com" required name="Eamil" >
+    <br>
+    <label for="password">Mat khau:</label>
+    <br>
+    <input type="password" id="password" name="MatKhau" required>
+    <br>
+    <input type="button" value="Dang ky">
+  </form>
+
+  <p>
+    <b>Yeu cau: </b>Tao form <b>tim kiem</b> nhu duoi day: (Phai co ca the form boc ben ngoai. 
+    Phai nhap noi dung moi cho bam Tim Kiem)
+  </p>
+  <form action="https://www.w3schools.com/action_page.php">
+    <input type="text" placeholder="Nhap noi dung tim kiem..." name="TimKiem">
+    <input type="button" value="Tim kiem">
+  </form>
+
+  <h1>Cau 3: Bai tap de on tap lai kien thuc ve form</h1>
+  <p>
+    <b>Yeu cau: </b>Ve lai ca the duoi day:
+  </p>
+  <p>
+    <b>The input:</b>
+  </p>
+
+  <label for="kieuText">Kieu text:</label>
+  <br>
+  <input type="text" id="kieuText" name="KieuText" placeholder="Nhap ho ten...">
+  <br>
+  <br>
+  <label for="kieuEmail">Kieu email:</label>
+  <br>
+  <input type="email" id="kieuEmail" name="KieuEmail" placeholder="Nhap email">
+  <br>
+  <br>
+  <label for="kieuPassword">Kieu password:</label>
+  <br>
+  <input type="password" id="kieuPassword" name="KieuPassword">
+  <br>
+  <br>
+  <label for="kieuNumber">Kieu number:</label>
+  <br>
+  <input type="number" id="kieuNumber" name="KieuNumber">
+  <br>
+  <br>
+  <label for="kieuDate">Kieu date:</label>
+  <br>
+  <input type="date" id="kieuDate" name="KieuDate">
+  <br>
+  <br>
+  <label for="kieuTime">Kieu time:</label>
+  <br>
+  <input type="time" id="kieuTime" name="KieuTime">
+  <br>
+  <br>
+  <label for="kieuFile">Kieu file:</label>
+  <br>
+  <input type="file" id="kieuFile" name="KieuFile">
+  <br>
+  <br>
+  <label >Kieu radio:</label>
+  <br>
+  <input type="radio" id="nam" value="Nam" name="GioiTinh">
+  <label for="nam">Nam</label>
+  <br>
+  <input type="radio" id="nu" value="Nu" name="GioiTinh">
+  <label for="nu">Nu</label>
+  <br>
+  <input type="radio" id="khac" value="Khac" name="GioiTinh">
+  <label for="khac">Khac</label>
+  <br>
+  <br>
+  <label for="kieuRange">Kieu range:</label>
+  <br>
+  <p>Am luong (min=0 va max=100)</p>
+  <input type="range" id="kieuRange" min="0" max="100" name="KieuRange">
+  <br>
+  <br>
+  <label for="kieuColor">Kieu color:</label>
+  <br>
+  <input type="color" id="kieuColor" name="KieuColor">
+  <br>
+  <br>
+  
+  <p>
+    <b>- The select:</b>
+  </p>
+
+  <label for="danhMuc">Chon danh muc</label>
+  <br>
+  <select name="DanhMuc" id="danhMuc">
+    <option value="Quan">Quan</option>
+    <option value="Ao">Ao</option>
+    <option value="Mu">Mu</option>
+    <option value="Khan">Khan</option>
+  </select>
+
+  <p>
+    <b>-The textarea (co cols = 30 vao rows = 10):</b>
+  </p>
+
+  <textarea name="textarea" cols="30" rows="10"></textarea>
+</body>
+</html>
